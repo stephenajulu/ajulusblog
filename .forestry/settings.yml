@@ -7,17 +7,15 @@ sections:
 - type: document
   path: https://github.com/stephenajulu/ajulusblog/blob/master/gridsome.config.js
   label: Config
-  match: "**/*"
 - type: document
   path: https://github.com/stephenajulu/ajulusblog/blob/master/package.json
   label: Package.json
-  match: "**/*"
 - type: directory
   path: https://github.com/stephenajulu/ajulusblog/tree/master/content/posts
   label: Posts
   create: documents
   match: "**/*"
-  new_doc_ext: ".md"
+  new_doc_ext: md
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
